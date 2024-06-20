@@ -13,3 +13,7 @@ draw:
   text_color: [139, 100, 0]
   text_width: 1
 
+line:
+  start: [739, 448]
+  end: [546, 333]
+
