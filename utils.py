@@ -45,22 +45,3 @@ def draw_boxes_for_class(frame, results, class_name, config):
                 cv2.putText(frame, f'{class_name} - {result.boxes.conf[i]:.2f}', (int(x1), int(y1 - 10)), eval(config['draw']['text_font']), config['draw']['text_fontsize'], config['draw']['text_color'],  config['draw']['text_width'])
 
     return frame
-
-
-
-
-from supervision.draw.color import ColorPalette
-from supervision.geometry.dataclasses import Point
-from supervision.video.dataclasses import VideoInfo
-from supervision.video.source import get_video_frames_generator
-from supervision.video.sink import VideoSink
-from supervision.notebook.utils import show_frame_in_notebook
-from supervision.tools.detections import Detections, BoxAnnotator
-from supervision.tools.line_counter import LineCounter, LineCounterAnnotator
-
-# converts Detections into format that can be consumed by match_detections_with_tracks function
-def detections2boxes(detections: Detections) -> np.ndarray:
-    return np.hstack((
-        detections.xyxy,
-        detections.confidence[:, np.newaxis]
-    ))
