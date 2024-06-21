@@ -1,6 +1,7 @@
 assets:
   runners_video: 'assets/people_running.mp4'
   output_filename: 'assets/people_running_processed.mp4'
+  sv_output_filename: 'assets/people_running_sv_processed.mp4'
 
 model:
   detection: 'models/yolov8n.pt' 
@@ -12,4 +13,8 @@ draw:
   text_fontsize: 0.5
   text_color: [139, 100, 0]
   text_width: 1
+
+line:
+  start: [739, 448]
+  end: [546, 333]
 
