@@ -1,7 +1,9 @@
 # Counter_INOUT
 
 
-VIDEO GENTE CORRIENDO DETECTANDO CON YOLOV8m
+VIDEO GENTE CORRIENDO DETECTANDO 'people' CON YOLOV8m
+
+https://github.com/fbayomartinez/Counter_INOUT/assets/163590683/65471c24-16a4-48d7-b680-c168cce4a916
 
 
 
