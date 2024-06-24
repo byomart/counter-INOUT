@@ -1,7 +1,6 @@
 assets:
   runners_video: 'assets/people_running.mp4'
   output_filename: 'assets/people_running_processed.mp4'
-  sv_output_filename: 'assets/people_running_sv_processed.mp4'
 
 model:
   detection: 'models/yolov8n.pt' 
