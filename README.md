@@ -18,4 +18,4 @@ https://github.com/fbayomartinez/Counter_INOUT/assets/163590683/e2b57e41-10d8-4f
 
 
 
-
+.
