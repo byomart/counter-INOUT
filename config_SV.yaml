@@ -1,6 +1,6 @@
 assets:
-  input_video: 'assets/people_walking_1.mp4'
-  output_filename: 'assets/people_walking_1_processed_sv.mp4'
+  input_video: 'assets/oranges.mp4'
+  output_filename: 'assets/oranges_processed_sv.mp4'
 
 model:
   detection: 'models/yolov8n.pt' 
@@ -13,10 +13,10 @@ model:
   # # model = YOLO("yolov8x.pt")
 
 line:
-  x1: 0
-  y1: 700
-  x2: 2000
-  y2: 700
+  x1: 500
+  y1: 1750
+  x2: 3000
+  y2: 1750
   color: sv.Color(255, 150, 150)
   text_in: 'in'
   text_out: 'out'
