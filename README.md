@@ -17,5 +17,3 @@ CONTEO NARANJAS EN POLYGONZONE
 https://github.com/fbayomartinez/Counter_INOUT/assets/163590683/e2b57e41-10d8-4f76-bc6b-9017db7f04fe
 
 
-
-.
