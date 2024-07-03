@@ -41,7 +41,7 @@ tracker = sv.ByteTrack(track_thresh=0.05, track_buffer=30, match_thresh=0.75, fr
 
 
 def process_frame(frame: np.ndarray, _) -> np.ndarray:
-    # detect
+    # detection
     results = detection_model(frame)[0]
     detections = sv.Detections.from_ultralytics(results)
     detections = detections[detections.class_id == 49]
