@@ -77,3 +77,5 @@ sv.process_video(source_path=source, target_path=output_filename, callback=proce
 
 # Close all OpenCV windows
 cv2.destroyAllWindows()
+
+
